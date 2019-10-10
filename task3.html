@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <script>
+         let x= [9,3,2,1,0];
+         let max= x[0];
+         let sum=0;
+         let Mba;
+         for (let i=1; i< x.length; i++) {
+             sum+=x[i];
+             if (x[i] > max) {
+                 max = x[i];
+             }
+             Mba= (x[0] + sum)/x.length;
+         }   document.write('Giá trị lớn nhất trong mảng là: ' + max);
+             document.write("<br>");
+             document.write("giá trị trug bình của mảng là :" + Mba);
+
+
+
+
+
+     </script>
+
+</body>
+</html>

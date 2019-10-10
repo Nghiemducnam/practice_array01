@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let input= parseInt(prompt("input your number!"));
+        let a= [2,3,1,4,5,8,6,9];
+        let d=false;
+        for( let i=0; i<a.length; i++) {
+            if (input == a[i]) {
+                d= true;
+                  break;
+            }
+        }
+        if(d==true) {
+            alert(input+" đã có trong mảng")
+        }else {
+            alert(input+" đã không có trong mảng")
+        }
+
+    </script>
+
+</body>
+</html>
